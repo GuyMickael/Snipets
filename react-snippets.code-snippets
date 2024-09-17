@@ -2,8 +2,6 @@
     "scope": "typescript, typescriptreact",
     "prefix": "rtfc",
     "body": [
-      "import React from 'react';",
-      "",
       "interface Props {",
       "}",
       "",
