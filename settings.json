@@ -1,4 +1,47 @@
 {
-  "editor.tabSize": 2,
-  "files.eol": "\n",
+
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": false,
+    "editor.rulers": [
+        {
+            "column" : 150,
+            "color": "#ddd2d2"
+        }
+    ],
+
+    // Linter rules
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // Styling rules
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "React Theme",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.bracketPairColorization.enabled": true,
+    "vscode_custom_css.imports": [
+        "file:/Users/mickael/Projects/customVsCodeSettings/custom-vscode.css",
+        "file:/Users/mickael/Projects/customVsCodeSettings/vscode-script.js",
+    ],
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.editor.showTabs": "none",
+    "update.showReleaseNotes": false
 }
